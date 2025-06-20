@@ -2,6 +2,7 @@ flask
 flask-bcrypt
 flask-jwt-extended
 flask-cors
+flask-mail
 flask-pymongo
 mongoengine
 python-dotenv
@@ -12,5 +13,11 @@ requests
 beautifulsoup4
 gunicorn
 pytz
-
-
+authlib
+opencv-python
+mediapipe
+numpy
+pandas
+scikit-learn
+pillow
+joblib
