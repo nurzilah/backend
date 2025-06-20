@@ -28,6 +28,7 @@ app.register_blueprint(users, url_prefix='/api/user')
 app.register_blueprint(api, url_prefix='/api')
 app.register_blueprint(chart, url_prefix="/api/chart")
 app.register_blueprint(scrape_bp, url_prefix='/api/scrape')
+app.register_blueprint(scrape_bp, url_prefix='/api/detection')
 
 @app.route('/')
 def index():
